@@ -2,6 +2,8 @@
 
 学習済のモデルを利用して画像分類（Classification）するデモ用のウェブアプリです。
 
+<img src="assets/screen-shot.jpg" width="800" alt="screen-shot" title="スクリーンショット">
+
 （注意：学習する部分のプログラムが含まれていません。）
 
 使用しているプログラミング言語はPythonです。
