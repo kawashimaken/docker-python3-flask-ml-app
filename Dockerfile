@@ -1,5 +1,6 @@
-FROM python:3.5-stretch
+FROM python:3.7-buster
 
+RUN apt-get update && apt-get install -y libgl1-mesa-glx
 RUN mkdir -p /usr/src/app
 ADD ./app /usr/src/app
 RUN pip3 install --upgrade pip
